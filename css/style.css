@@ -148,8 +148,8 @@ header {
 
 .copy {
     text-align: center;
-    font-size: 16px;
-    padding: 20px 0;
+    font-size: 12px;
+    padding: 10px 0;
 }
 
 .copy p {
@@ -198,6 +198,10 @@ header {
         background-size: auto;
     }
 
+    .copy {
+        font-size: 16px;
+    }
+
     .left_banner {
         background-image: url("../img/img1-b.png");
         top: 0;
@@ -228,11 +232,21 @@ header {
         width: 40px;
     }
 
-    .slick-prev {
+    .slick-prev, .slick-prev:hover {
         left: 5px;
     }
 
-    .slick-next {
+    .slick-next, .slick-next:hover {
         right: 5px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .slick-prev, .slick-prev:hover {
+        left: -20px;
+    }
+
+    .slick-next, .slick-next:hover {
+        right: -20px;
     }
 }
