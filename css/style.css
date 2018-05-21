@@ -1,0 +1,174 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    min-height: 500px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bg-s.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: cover;
+    position: relative;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo {
+    background-image: url("../img/vr-s-s.png");
+    width: 281px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.main_banner {
+    background-image: url("../img/tuircs-s.png");
+    background-position: center;
+    -webkit-background-size: 80%;
+    background-size: 80%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    z-index: 1;
+}
+
+.left_banner {
+    background-image: url("../img/img1-s.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+
+.right_banner {
+    background-image: url("../img/img2-s.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slider {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider_item {
+    outline: none;
+}
+
+.slider_item img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.partners {
+    padding: 0 30px;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 1000;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copy p {
+    color: #ffffff;
+    display: inline-block;
+}
+
+.copy a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.partners_header {
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    body {
+        background-image: url("../img/bg-b.jpg");
+    }
+
+    .logo {
+        background-image: url("../img/vr-s-b.png");
+        width: 421px;
+        height: 58px;
+    }
+
+    .main_banner {
+        background-image: url("../img/tuircs-b.png");
+        -webkit-background-size: auto;
+        background-size: auto;
+    }
+
+    .left_banner {
+        background-image: url("../img/img1-b.png");
+        top: 50%;
+        margin-top: -100px;
+    }
+
+    .right_banner {
+        background-image: url("../img/img2-b.png");
+        top: 0;
+        margin-top: -100px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 30%;
+        height: 100%;
+        -webkit-background-size: auto;
+        background-size: auto;
+    }
+}

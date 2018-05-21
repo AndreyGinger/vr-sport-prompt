@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <title>VR-SPORT</title>
+    <link rel="stylesheet" href="vendor/slick/css/slick.css">
+    <link rel="stylesheet" href="vendor/slick/css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+    </header>
+    <div class="main_banner"></div>
+    <div class="left_banner"></div>
+    <div class="right_banner"></div>
+    <footer class="footer">
+      <div class="partners">
+        <p class="partners_header">Partners:</p>
+        <div class="slider">
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+          <div class="slider_item">
+            <a href="#"><img src="img/slider-item-1.png" alt="partner"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+        <p>© Crecom, Inc 2018. Global Internet platform for live broodcasting of sporting events in 360° format.</p>
+        <a class="contact" href="tel:+88005119585">Contact: 8 (800) 511-9-585</a>
+      </div>
+    </footer>
+  </body>
+</html>
+<script type="text/javascript" src="vendor/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+<script>
+  $(function () {
+    $('.slider').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 7,
+      slidesToScroll: 3,
+      adaptiveHeight: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    })
+  })
+</script>
