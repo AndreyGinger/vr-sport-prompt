@@ -58,8 +58,8 @@ header {
     -webkit-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 300px;
-    height: 200px;
+    width: 70%;
+    height: 30%;
     position: absolute;
     top: 10%;
     left: 0;
@@ -72,8 +72,8 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
-    width: 300px;
-    height: 200px;
+    width: 70%;
+    height: 30%;
     position: absolute;
     top: 50%;
     right: 0;
@@ -87,22 +87,33 @@ header {
 }
 
 .slider {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 .slider_item {
+    outline: none;
+    background: #ffffff;
+    margin: 0 10px;
+}
+
+.slider_item a {
     outline: none;
 }
 
 .slider_item img {
     max-width: 100%;
     height: auto;
-    padding: 10px;
+    margin: 0 auto;
 }
 
 .partners {
     padding: 0 20px;
+}
+
+.partners_header {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .slick-arrow {
@@ -137,7 +148,8 @@ header {
 
 .copy {
     text-align: center;
-    font-size: 11px;
+    font-size: 16px;
+    padding: 20px 0;
 }
 
 .copy p {
@@ -155,9 +167,10 @@ header {
 .partners_header {
     color: #ffffff;
     text-align: center;
+    padding: 10px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 740px) {
     body {
         background-image: url("../img/bg-b.jpg");
     }
@@ -178,7 +191,7 @@ header {
         background-image: url("../img/img1-b.png");
         top: 0;
         margin-top: 0;
-        width: 30%;
+        width: 35%;
         height: 100%;
         -webkit-background-size: contain;
         background-size: contain;
@@ -189,7 +202,7 @@ header {
         background-image: url("../img/img2-b.png");
         top: 0;
         margin-top: 0;
-        width: 30%;
+        width: 35%;
         height: 100%;
         -webkit-background-size: contain;
         background-size: contain;
