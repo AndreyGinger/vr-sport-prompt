@@ -247,10 +247,10 @@ header {
 
 @media (min-width: 1600px) {
     .slick-prev, .slick-prev:hover {
-        left: -20px;
+        left: -70px;
     }
 
     .slick-next, .slick-next:hover {
-        right: -20px;
+        right: -70px;
     }
 }
