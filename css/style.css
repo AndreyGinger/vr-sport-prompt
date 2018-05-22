@@ -26,17 +26,19 @@ body {
 }
 
 header {
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 .logo {
     background-image: url("../img/vr-s-s.png");
-    width: 281px;
-    height: 40px;
+    width: 228px;
+    height: 29px;
     margin: 0 auto;
     z-index: 1000;
     position: relative;
-    z-index: 1000;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main_banner {
@@ -94,7 +96,7 @@ header {
 .slider_item {
     outline: none;
     background: #ffffff;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .slider_item a {
@@ -112,7 +114,7 @@ header {
 }
 
 .partners_header {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -152,7 +154,7 @@ header {
 
 .copy {
     text-align: center;
-    font-size: 12px;
+    font-size: 8px;
     padding: 10px 0;
 }
 
@@ -185,15 +187,15 @@ header {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 800px) {
     body {
         background-image: url("../img/bg-b.jpg");
     }
 
     .logo {
         background-image: url("../img/vr-s-b.png");
-        width: 421px;
-        height: 58px;
+        width: 378px;
+        height: 48px;
     }
 
     .main_banner {
@@ -214,7 +216,7 @@ header {
         height: 100%;
         -webkit-background-size: contain;
         background-size: contain;
-        background-position-y: 30%;
+        background-position-y: 50%;
     }
 
     .right_banner {
@@ -225,11 +227,15 @@ header {
         height: 100%;
         -webkit-background-size: contain;
         background-size: contain;
-        background-position-y: 30%;
+        background-position-y: 50%;
     }
 
     .partners {
         padding: 0 50px;
+    }
+
+    .partners_header {
+        font-size: 24px;
     }
 
     .slick-arrow {
@@ -242,6 +248,10 @@ header {
 
     .slick-next, .slick-next:hover {
         right: -45px;
+    }
+
+    .slider_item {
+        margin: 0 10px;
     }
 }
 
